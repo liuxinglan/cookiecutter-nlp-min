@@ -1,0 +1,9 @@
+scipy
+numpy
+scikit-learn
+gensim
+spacy
+pandas
+python-Levenshtein
+pytest
+nltk

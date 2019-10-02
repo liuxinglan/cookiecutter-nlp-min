@@ -1,0 +1,15 @@
+# data/
+# models/
+# refs/
+# slides/
+# logs/
+# output_intermediate/
+# output/
+__pycache__/
+.vscode/
+.ipynb_checkpoints/
+.git/
+*.pyc
+*.zip
+*.ods
+wiki.md

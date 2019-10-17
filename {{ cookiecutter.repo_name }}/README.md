@@ -19,6 +19,8 @@ Project Organization
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
     │                         the creator's initials, and a short `-` delimited description, e.g.
     │                         `1.0-jqp-initial-data-exploration`.
+    ├── resources          <- Resources needed, such as labels, data selection, accepted 
+    │                         vocabulary etc
     ├── output
     ├── output_intermediate <- Intermediate data that has been transformed.
     ├── README.md          <- The top-level README for developers using this project.

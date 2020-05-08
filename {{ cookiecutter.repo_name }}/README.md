@@ -14,19 +14,18 @@ Project Organization
     │   ├── reports        <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   │   └── figures    <- Generated graphics and figures to be used in reporting
     │   └── slides
-    ├── logs
+    ├── {{ cookiecutter.module_name }}    <- Source code for using in this project.
+    ├── tests              <- unit tests (pytest convention).
+    ├── script             <- Scripts for this project.
+    ├── logs               <- logging files
     ├── models             <- Trained and serialized models, model predictions, or model summaries
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
     ├── resources          <- Resources needed, such as labels, data selection, accepted 
     │                         vocabulary etc
     ├── output
     ├── output_intermediate <- Intermediate data that has been transformed.
     ├── README.md          <- The top-level README for developers using this project.
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    └── src                <- Source code for use in this project.
+    └── requirements.txt   <- The requirements file for reproducing the analysis
+                              environment, e.g. generated with `pip freeze > requirements.txt`
 
 
 --------
